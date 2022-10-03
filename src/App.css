@@ -1,0 +1,10 @@
+.arrows .slick-prev {
+  z-index: 1;
+  left: 30px;
+}
+.arrows .slick-next {
+  right: 30px;
+}
+.arrows .slick-dots {
+  bottom: 10px;
+}

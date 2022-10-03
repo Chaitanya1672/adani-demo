@@ -1,0 +1,29 @@
+.seacrhBar {
+  position: relative;
+  background-color: lightgreen;
+  text-align: center;
+  background: none;
+  width: 100%;
+}
+.searchInp {
+  /* position: relative; */
+  border-style: none;
+  outline: none;
+  width: 50%;
+  height: 3rem;
+  margin: 1rem 0;
+  border-radius: 2rem;
+}
+.button {
+  position: absolute;
+  height: 2rem;
+  width: 10%;
+  border-radius: 1.5rem;
+  background-color: black;
+  top: 24px;
+  left: 64%;
+  color: white;
+}
+input::placeholder {
+  padding-left: 1rem;
+}
