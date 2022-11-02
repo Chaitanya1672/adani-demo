@@ -1,0 +1,53 @@
+.backdp {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(5px);
+}
+.sidebarContainerRight {
+  position: absolute;
+  right: 0;
+  z-index: 100;
+  height: 100vh;
+  width: 14rem;
+  border: 1px solid black;
+  background-color: grey;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+.sidebarContainer {
+  position: absolute;
+  z-index: 100;
+  height: 100vh;
+  width: 14rem;
+  border: 1px solid black;
+  background-color: grey;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  /* backdrop-filter: blur(5.5px); */
+}
+/* .sidebarContainer::backdrop {
+  background: black;
+} */
+.menuIcon {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+}
+.Icon {
+  width: 2rem;
+  height: 2rem;
+  padding-right: 1rem;
+}
+.pi {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid black;
+}
+/* .container::backdrop { */
+/* background: rgba(255, 0, 0, 0.25); */
+
+/* background-color: rgba(255, 255, 255, 0.4); */
+/* -webkit-backdrop-filter: blur(5px); */
+/* backdrop-filter: blur(5px); */
+/* } */

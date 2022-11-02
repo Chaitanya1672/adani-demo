@@ -1,0 +1,7 @@
+.sideBarName {
+  margin: 0.5rem 0;
+}
+.sideBarName:hover {
+  background-color: darkgray;
+  cursor: pointer;
+}
